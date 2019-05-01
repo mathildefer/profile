@@ -1,0 +1,101 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6e0b3;
+  color: #4e4e4e;
+  font-size: 15px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  color: #4e4e4e;
+}
+
+h2 {
+  font-size: 18px;
+  color: #dbcc8f;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  color: #4e4e4e;
+}
+
+a:hover{
+  color: #dbcc8f;
+}
+
+
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+ text-align: center;
+ width: 700px;
+ margin: 0 auto;
+}
+
+.card {
+  background: #fff5eb;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  padding: 40px;
+  margin: 20px 0px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1)
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-green {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background-color: #dbcc8f;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  font-style: bold;
+  font-size: 12px;
+  border: 1px solid lightgrey;
+}
+
+.btn-green:hover {
+  background-color: #4e4e4e;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+

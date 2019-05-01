@@ -15,6 +15,7 @@ h2 {
   font-size: 18px;
   color: #dbcc8f;
   font-family: 'Roboto Mono', monospace;
+  margin-bottom: 10px;
 }
 
 a {
@@ -25,7 +26,9 @@ a:hover{
   color: #dbcc8f;
 }
 
-
+p {
+    margin-bottom: 30px;
+}
 
 img {
   border-radius: 50%;
@@ -98,4 +101,5 @@ img {
     width: 300px;
   }
 }
+
 
